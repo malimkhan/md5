@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qyDGxWJjnnU=",
+  "success": true,
+  "projectFilePath": "D:\\development\\dotnet\\md5\\Md5\\Md5\\Md5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aminatulaev\\.nuget\\packages\\system.io.hashing\\9.0.1\\system.io.hashing.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
