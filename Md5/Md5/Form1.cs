@@ -70,6 +70,7 @@ namespace Md5
                 }
 
                 var checkSum = crc32.GetCurrentHash();
+                Array.Reverse(checkSum);
                 return BitConverter.ToString(checkSum).Replace("-", "").ToUpper();
             }
 
@@ -120,13 +121,8 @@ namespace Md5
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
             saveFileDialog1.Filter = "Excel |*.xlsx";
             saveFileDialog1.Title = "Сохранить Excel";
-            saveFileDialog1.ShowDialog();
-            if (saveFileDialog1.FileName == null|| saveFileDialog1.FileName=="")
-            {
-                return;
-            }
-            workbook.SaveAs2(saveFileDialog1.FileName);
-            workbook.Close();
+           
+            workbook.Save();
         }
     }
 }
