@@ -34,7 +34,7 @@ namespace Md5
                         i,
                         true,
                         file.Name,
-                        file.LastWriteTimeUtc.ToString("dd MMMM yyyyг., hh:mm:ss", CultureInfo.GetCultureInfo("ru-RU")),
+                        file.LastWriteTime.ToString("dd MMMM yyyyг., HH:mm:ss", CultureInfo.GetCultureInfo("ru-RU")),
                         file.Length,
                         ChecksumUtil.GetCheckSumCrc32Async(file)
                     };
@@ -98,10 +98,10 @@ namespace Md5
             worksheet.Columns.AutoFit();
             worksheet.Name = "ANVAR";
 
-            worksheet.Cells[1, 1].Value = "Наименование файла";            
-            worksheet.Cells[1, 2].Value = "Дата и время последнего изменения";
-            worksheet.Cells[1, 3].Value = "Размер Байт";
-            worksheet.Cells[1, 4].Value = "Контрольная сумма";
+            worksheet.Cells[1, 1] = "Наименование файла";            
+            worksheet.Cells[1, 2] = "Дата и время последнего изменения";
+            worksheet.Cells[1, 3] = "Размер Байт";
+            worksheet.Cells[1, 4] = "Контрольная сумма";
             int rowIndex = 2;
             foreach (DataGridViewRow row in dataGridView.Rows)
             {
@@ -112,7 +112,7 @@ namespace Md5
                     {
                         continue;
                     }
-                    worksheet.Cells[rowIndex, cellIndex].Value = cell.Value.ToString();
+                    worksheet.Cells[rowIndex, cellIndex] = cell.Value.ToString();
                     cellIndex++;
                 }
                 rowIndex++;

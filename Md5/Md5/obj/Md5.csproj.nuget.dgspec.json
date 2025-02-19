@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\dotnet\\md5\\Md5\\Md5\\Md5.csproj": {}
+    "C:\\dev\\donet\\md5\\Md5\\Md5\\Md5.csproj": {}
   },
   "projects": {
-    "D:\\development\\dotnet\\md5\\Md5\\Md5\\Md5.csproj": {
+    "C:\\dev\\donet\\md5\\Md5\\Md5\\Md5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\dotnet\\md5\\Md5\\Md5\\Md5.csproj",
+        "projectUniqueName": "C:\\dev\\donet\\md5\\Md5\\Md5\\Md5.csproj",
         "projectName": "Md5",
-        "projectPath": "D:\\development\\dotnet\\md5\\Md5\\Md5\\Md5.csproj",
-        "packagesPath": "C:\\Users\\aminatulaev\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\dotnet\\md5\\Md5\\Md5\\obj\\",
+        "projectPath": "C:\\dev\\donet\\md5\\Md5\\Md5\\Md5.csproj",
+        "packagesPath": "C:\\Users\\alimkhan\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\donet\\md5\\Md5\\Md5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aminatulaev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alimkhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,15 +44,19 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
             "System.IO.Hashing": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.2, )"
             }
           },
           "imports": [
@@ -74,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
