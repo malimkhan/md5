@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cUPTYlIfKX0=",
+  "dgSpecHash": "2XZQHfXJEEM=",
   "success": true,
   "projectFilePath": "C:\\dev\\donet\\md5\\Md5\\Md5\\Md5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alimkhan\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
-    "C:\\Users\\alimkhan\\.nuget\\packages\\system.io.hashing\\9.0.2\\system.io.hashing.9.0.2.nupkg.sha512"
+    "C:\\Users\\alimkhan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\alimkhan\\.nuget\\packages\\system.io.hashing\\9.0.2\\system.io.hashing.9.0.2.nupkg.sha512",
+    "C:\\Users\\alimkhan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
   "logs": []
 }
